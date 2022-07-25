@@ -13,96 +13,115 @@
 
 <body>
   <header class="header" id="up">
-    <div class="container-fluid">
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              О нас
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              "Проживая свой дизайн" для Генераторов.Столярова А
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              Курс «Проживая свой дизайн». Ланская Ю
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              Курс «Жизнь проектора»Спикер: Ланская Юлия
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              Другие продукты
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              Контакты
-            </a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__list-link" href="#">
-              Жизнь в истинном свете Столярова А
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <div class="header__wrapper">
+      <div class="container-fluid">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="about.html">
+                О нас
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="generator.html">
+                "Проживая свой дизайн" для Генераторов.
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="live.html">
+                Жизнь в истинном свете.
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">
+                Другие продукты
+              </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="contact.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+          <a class="menu__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+        </nav>
+      </div>
     </div>
   </header>
   <div class="wrapper">
 
     <main class="main">
+      <section class="contact">
+        <h1 class="contact__title">Контакты:</h1>
+        <ul class="contact__items">
+          <li class="contact__items-item">
+            <a class="contact__items-link contact__items-link--telegram" href="#">Подписывайся на Telegram</a>
+          </li>
+          <li class="contact__items-item">
+            <a class="contact__items-link" href="#">Instagram</a>
+          </li>
+          <li class="contact__items-item">
+            <a class="contact__items-link contact__items-link--vk" href="#">Заходи в VK</a>
+          </li>
+        </ul>
+      </section>
       
     </main>
     
     <footer class="footer">
-      <nav class="footer__menu">
-        <ul class="footer__menu-list menu__list">
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              О нас							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Курс							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Контакты							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Договор оферты							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Политика							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Реквизиты							
-            </a>
-          </li>
-          <li class="footer__menu-item menu__list-item">
-            <a class="footer__menu-link menu__list-link" href="#">
-              Оплата
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="about.html">
+                О нас							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="index.html">
+                Курс							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="contact.html">
+                Контакты							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="oferta.html">
+                Договор оферты							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">
+                Политика							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="requisites.html">
+                Реквизиты							
+              </a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">
+                Оплата
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
     </footer>
   </div>
+  <a href="#up" class="pageup">
+    <img src="icons/up.svg" alt="up">
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=79671772977" target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer"><div class="whatsapp-button"><i class="fa fa-whatsapp"></i></div></a>
+  <script src="https://kit.fontawesome.com/eca43118e8.js" crossorigin="anonymous"></script>
   <script src="js/main.min.js"></script>
 </body>
 
